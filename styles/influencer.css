@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    padding: 60px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 220px;
+}
+.nav-items{
+    display: flex;
+    gap: 20px;
+    
+}
+.nav-link{
+    list-style: none;
+}
+.nav-links{
+    text-decoration: none;
+    font-family: Poppins;
+   font-size: 1rem;
+   font-weight: 600;
+   color: rgb(58, 58, 58);
+}
+.brand{
+    font-family: Poppins;
+    font-size: 2.25rem;
+    font-weight: 700;
+    margin-left: 150px;
+}
+.banner-container{
+   margin-top: 100px;
+   margin-left: 150px;
+
+}
+.banner-title{
+    font-family: Poppins;
+    font-size: 3rem;
+    font-weight: 700;
+    width: 580px;
+}
+.banner-description{
+    font-family: Poppins;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.btn{
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+    font-size: 1rem;
+    font-weight: 700;
+    border-radius: 41px;
+    background: rgb(224, 44, 109);
+    width: 196px;
+    height: 44px;
+    margin-top: 16px;
+}
+
+
+.img-container{
+      background-image: url('../images/Circle\ design.svg');
+     background-size: contain;
+     height: 440px;
+     width: 414px;
+     margin-right: 460px;
+     border: 1px dashed gray;
+     background-repeat: no-repeat;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    
+} 
+.camera{
+   border: 1px dashed gray;
+   margin-right: 30px;
+  
+}
+
+.banner{
+    display: flex;
+    /* gap: 50px; */
+}
